@@ -1,0 +1,190 @@
+
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .footer-description {
+        flex: 1 1 18%;
+    }
+
+    .footer-links {
+        flex: 1 1 35%;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for laptop displays */
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-description,
+    .footer-links {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for smaller displays */
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Laptops and large tablets */
+    .video .video-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tablets and iPads */
+    .video .video-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Smartphones in landscape mode */
+    .video .video-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Smartphones in portrait mode */
+    .video .video-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* General adjustments for small screens */
+    .content {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-description,
+    .footer-links {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .footer-description {
+        flex: 1 1 18%;
+    }
+
+    .footer-links {
+        flex: 1 1 35%;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for laptop displays */
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-description,
+    .footer-links {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for smaller displays */
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Laptops and large tablets */
+    .video .video-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tablets and iPads */
+    .video .video-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Smartphones in landscape mode */
+    .video .video-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Smartphones in portrait mode */
+    .video .video-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* General adjustments for small screens */
+    .content {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-description,
+    .footer-links {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}

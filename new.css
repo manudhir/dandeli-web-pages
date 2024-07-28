@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 50px;
+    padding-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: -4rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    gap: 3rem;
+    align-items: center;
+}
+
+.content .image {
+    flex: 1 1 40%;
+    text-align: left;
+}
+
+.content .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content .text {
+    flex: 1 1 50%;
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+    color: #313041;
+    font-family: Inter;
+    padding-top: 3rem;
+    text-align: center; /* Center align the text */
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29.76px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content button {
+    padding: 17px 31.16px 19px 30px;
+    border-radius: 5px;
+    background: #E8604C; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.content a:link, .content a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: auto;
+    text-align: center;
+}
+
+.content button:hover {
+    background-color: #eb5841;
+}
+
+.video {
+    text-align: center;
+    padding: 0rem;
+    margin-top: -3rem;
+    background-color: #f2f2f2;
+}
+
+.video .video-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Default width for the video container */
+}
+
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.video .youtube-button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+
+.video .video-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    padding: 4rem;
+    background-color: #313041;
+    top: 2043px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-description {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+    color: #A9A8B6;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footer-links h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #A9A8B6;
+}
+
+.contact p, .Address p {
+    margin: 0.5rem 0;
+    color: #A9A8B6;
+}
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.video .youtube-button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+    .footer-description {
+        flex: 1 1 18%;
+    }
+
+    .footer-links {
+        flex: 1 1 35%;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for laptop displays */
+    }
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 46px;
+    padding-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: -4rem;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+  .content {
+    
+        flex-direction: column;
+    }
+.content .text {
+  flex-direction: column;
+  margin-top: -6rem;
+  margin-bottom: 6rem;
+}
+.video .youtube-button {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 30%
+    height: auto;
+    display: block;
+    text-align: center;
+}
+  footer {
+    flex-direction: row;
+  }
+    .footer-description {
+        width: 10%;
+      height: 1%;;
+    }
+
+    .footer-links {
+     
+        width: 20%;
+    }
+  footer .contact {
+    width: 20%;
+  }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for smaller displays */
+    }
+}

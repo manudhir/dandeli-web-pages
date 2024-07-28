@@ -1,0 +1,858 @@
+body {
+    font-family: DM sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 50px;
+    padding-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: 0rem;
+}
+
+
+.contact-section {
+    font-family: DM sans, sans-serif;
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+    padding-left: 8em;
+    padding-right: 10em;
+    gap: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+.contact-info {
+    text-align: left;
+    margin-bottom: 7em;
+   
+}
+
+.contact-info h1 {
+    font-family: DM Sans;
+    width: 351.31px;
+    height: 186px;
+    top: 421px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #313041;
+
+    margin-bottom: 0.5em;
+}
+
+.contact-info p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.76px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #757783;
+
+}
+
+.contact-form {
+    
+  flex-direction: row;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 270px;
+    height: 46px;
+    border-radius: 8px;
+    opacity: 0px;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    text-align: left;
+    
+
+   
+ 
+}
+
+
+
+.form-group1 input,
+.form-group1 textarea {
+    width: 560px;
+    height: 160px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+button {
+    width: 200px;
+    height: 58px;
+    padding: 1em;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background: #E8604C;
+    text-align: center;
+    color: #fff;
+}
+.video {
+    text-align: center;
+    padding: 0rem;
+    margin-top: 0rem;
+    background-color: #f2f2f2;
+}
+
+.video .video-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Default width for the video container */
+}
+
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.video .youtube-button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+
+.video .video-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #fff;
+    padding: 4rem;
+    background-color: #313041;
+    top: 2043px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-description {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+    color: #A9A8B6;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footer-links h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #A9A8B6;
+}
+
+
+.contact p {
+    margin-top: -0.5rem;
+    color: #A9A8B6;
+}
+.address p {
+    margin-top: 2rem;
+    color: #A9A8B6;
+}
+
+
+
+@media (min-width: 768px) {
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 46px;
+    padding-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: -4rem;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+  
+.contact-section {
+    font-family: DM sans, sans-serif;
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+    padding-left: 3em;
+    padding-right: 2em;
+    gap: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+.contact-info {
+    text-align: left;
+    margin-bottom: 7em;
+   
+}
+
+.contact-info h1 {
+    font-family: DM Sans;
+    width: 351.31px;
+    height: 186px;
+    top: 421px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #313041;
+
+    margin-bottom: 0.5em;
+}
+
+.contact-info p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.76px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #757783;
+
+}
+
+.contact-form {
+    
+  flex-direction: row;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 210px;
+    height: 46px;
+    border-radius: 8px;
+    opacity: 0px;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    text-align: left;
+    
+
+   
+ 
+}
+
+
+
+.form-group1 input,
+.form-group1 textarea {
+    width: 445px;
+    height: 160px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+button {
+    width: 200px;
+    height: 58px;
+    padding: 1em;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background: #E8604C;
+    text-align: center;
+    color: #fff;
+}
+button:hover{
+  background-color: orangered;
+}
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.video .youtube-button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    
+    padding: 4rem;
+    background-color: #313041;
+   
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-description {
+    flex: 1 1 18%;
+    margin-bottom: 1rem;
+    color: #A9A8B6;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1 1 20%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0rem;
+}
+
+.footer-links h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #A9A8B6;
+}
+
+.contact p, .address p {
+    margin: 0.5rem;
+    color: #A9A8B6;
+}
+
+    .video .video-container {
+        width: 100%; /* Adjust width for laptop displays */
+    }
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 46px;
+    padding-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.video .youtube-button {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+
+.contact-section {
+    font-family: DM sans, sans-serif;
+    font-size: 10px;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+.contact-info {
+    text-align: left;
+    margin-bottom: 7em;
+   
+}
+
+.contact-info h1 {
+    font-family: DM Sans;
+    width: 300px;
+    height: 186px;
+    top: 421px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #313041;
+
+    margin-bottom: 0em;
+}
+
+.contact-info p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.76px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #757783;
+
+}
+
+.contact-form {
+    
+  flex-direction: row;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 180px;
+    height: 46px;
+    border-radius: 8px;
+    opacity: 0px;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    text-align: left;
+    
+
+   
+ 
+}
+
+
+
+.form-group1 input,
+.form-group1 textarea {
+    width: 343px;
+    height: 160px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    padding: 2em;
+    margin-bottom: 0.5em;
+}
+button {
+    width: 160px;
+    height: 58px;
+    padding: 1em;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background: #E8604C;
+    text-align: center;
+    color: #fff;
+}
+  
+  
+.video .youtube-button {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+
+  footer {
+    flex-direction: row;
+  }
+    .footer-description {
+        width: 10%;
+      height: 1%;;
+    }
+
+    .footer-links {
+     
+        width: 10%;
+    }
+  footer .contact {
+    width: 10%;
+  }
+footer .address {
+  width: 10%;
+}
+    .video .video-container {
+        width: 100%; /* Adjust width for smaller displays */
+    }
+}
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header {
+        flex-direction: row;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    header .logo img {
+        padding-left: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .contact-section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .contact-info h1 {
+         font-family: DM Sans;
+    width: 300px;
+    height: 186px;
+    top: 421px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #313041;
+    }
+
+  
+  
+    .contact-form {
+        flex-direction: row;
+      margin-top: -3rem;
+    }
+
+    .form-group,
+    .form-group1 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group1 input,
+    .form-group1 textarea {
+        width: 85%;
+    }
+
+    button {
+        width: 40%;
+    }
+
+    .video .video-text {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .footer-content {
+      font-size: 90%;
+        flex-direction: row;
+        align-items: left;
+    }
+
+    .footer-links {
+   
+      
+        flex-direction: row;
+        align-items: center;
+      text-align: left;
+    }
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1220px) {
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    header .logo img {
+        padding-left: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .contact-section {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .contact-info h1 {
+        width: 100%;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .contact-form {
+        flex-direction: row;
+    }
+
+    .form-group,
+    .form-group1 {
+        
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group1 input,
+    .form-group1 textarea {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .video .video-text {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        align-items: center;
+    }
+}

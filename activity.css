@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: DM, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 50px;
+    padding-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: -4rem;
+}
+
+
+.activities, .more-activities {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 ;
+}
+
+.activity, .more-activity {
+    text-align: center;
+    width: 23%;
+  padding: 0em;
+  padding-bottom: 1rem
+   
+}
+
+.more-activity img {
+    width: 100%;
+    height: 70px;
+    background: #ccc;
+    display: block;
+    margin-bottom: 0.5em;
+  
+}
+.activity img {
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+    display: block;
+    margin-bottom: 0.5em;
+  
+}
+
+
+.details {
+    padding: 2em;
+}
+
+.detail-card {
+    display: flex;
+    margin-bottom: 2em;
+    gap: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.detail-card img {
+    width: 30%;
+    height: auto;
+    background: #ccc;
+    display: block;
+  border-radius: 5px;
+}
+
+.detail-text {
+  font-family: DM, sans-serif;
+    width: 70%;
+  font-size: 13px;
+  text-align: left;
+  margin-top: 4rem;
+}
+
+
+
+.video {
+    text-align: center;
+    padding: 0rem;
+    margin-top: -3rem;
+    background-color: #f2f2f2;
+}
+
+.video .video-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Default width for the video container */
+}
+
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+}
+
+
+
+footer {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    padding: 4rem;
+    background-color: #313041;
+    top: 2043px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-description {
+    flex: 1 1 100%;
+    margin-bottom: 1rem;
+    color: #A9A8B6;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footer-links h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #A9A8B6;
+}
+
+.contact p, .Address p {
+    margin: 0.5rem 0;
+    color: #A9A8B6;
+}
+
+@media (min-width: 768px) {
+.activities, .more-activities {
+  flex-direction: row;
+  margin-top: 6em;
+    }
+  
+  .activity, .more-activity {
+    font-family: DM, sans-serif;
+    text-align: center;
+    width: 23%;
+}
+
+.activity img, .more-activity img {
+    width: 100%;
+    height: 200px;
+    background: #ccc;
+    display: block;
+    margin-bottom: 0.5em;
+  
+}
+
+.details {
+    padding: 2em;
+}
+
+.detail-card {
+    display: flex;
+    margin-bottom: 2em;
+    gap: 2rem;
+}
+
+.detail-card img {
+    width: 30%;
+    height: auto;
+    background: #ccc;
+    display: block;
+}
+
+.detail-text {
+    width: 70%;
+  font-size: 13px;
+  margin-top: -1rem;
+}
+  
+    .more-activity p {
+    margin-bottom: 3rem;
+  }
+
+.video .video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+  margin-top: 0rem;
+    margin-bottom: -1rem;
+}
+  
+    .footer-description {
+        flex: 1 1 18%;
+    }
+
+    .footer-links {
+        flex: 1 1 35%;
+    }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for laptop displays */
+    }
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+header .logo img {
+    max-height: 46px;
+    padding-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover, a:active {
+    color: #E8604C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #E8604C;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: -4rem;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.details {
+    padding: 2em;
+   shape-margin: 1rem;
+}
+
+.detail-card {
+    display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+    margin-bottom: 2em;
+    gap: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.detail-card img {
+    width: 40%;
+    height: 60%;
+    background: #ccc;
+    display: block;
+  margin-top: 1em;
+}
+
+.detail-text {
+  font-family: DM, sans-serif;
+    width: 70%;
+  font-size: 13px;
+  text-align: left;
+  margin-top: -0.5em;
+}
+  .detail-text p {
+    margin-top: -1em;
+  }
+  
+
+  footer {
+    flex-direction: row;
+  }
+    .footer-description {
+        width: 10%;
+      height: 1%;;
+    }
+
+    .footer-links {
+     
+        width: 20%;
+    }
+  footer .contact {
+    width: 20%;
+  }
+
+    .video .video-container {
+        width: 100%; /* Adjust width for smaller displays */
+    }
+}
